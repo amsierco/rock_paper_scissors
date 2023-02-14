@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    font-size: large;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.choice-container * {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    border: none;
+}
+
+#rock {
+    background-color: gray;
+}
+
+#paper {
+    background-color: green;
+}
+
+#scissors {
+    background-color: orange;
+}
