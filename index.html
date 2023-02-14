@@ -3,17 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <title>Rock Paper Scissors Game</title>
 </head>
 <body>
     <div class="header">
-        Rock Paper Scissors Game!
+        Choose Your Fate!
     </div>
+    
+    <div class="key-container">
+        <div class="win">
+            <div class="color">.</div>
+            <div class="text">- Win</div>
+        </div>
+        <div class="lose">
+            <div class="color">.</div>
+            <div class="text">- Lose</div>
+        </div>
+        <div class="draw">
+            <div class="color">.</div>
+            <div class="text">- Draw</div>
+        </div>
+    </div>
+    
     <div class="choice-container">
         <button class="btn" id="rock">Rock</button>
         <button class="btn" id="paper">Paper</button>
         <button class="btn" id="scissors">Scissors</button>
     </div>
+    
+    <text class="score" id="score-id">
+        Scoreboard
+    </text>
+    
+    <div class="restart">
+        <div class="text">
+            Click the button to play again!
+        </div>
+        <div class="restart-btn">
+            <button class="btn" id="restart-id">
+                Replay!
+            </button>
+        </div>
+    </div>
+    
 </body>
     <script src="./javascript.js"></script>
 </html>
